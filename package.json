@@ -1,0 +1,14 @@
+{
+  "name": "xi-memory-bench",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "xi-memory — a local, file-authoritative conversation memory layer. Benchmark 2.2 submission.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "smoke": "node adapter/bridge.mjs < /dev/null"
+  }
+}
